@@ -1,4 +1,5 @@
 const Jwt = require('@hapi/jwt');
+const InvariantError = require('../exceptions/InvariantError');
 
 const TokenManager = {
   // payload berisi identitas user (ex. user id)

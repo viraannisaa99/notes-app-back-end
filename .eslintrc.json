@@ -8,6 +8,15 @@
     "ecmaVersion": 2020
   },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "linebreak-style": 0,
+    "max-len": "off",
+    "no-unused-vars": "off",
+    "padded-blocks": "off",
+    "no-undef": "off",
+    "object-curly-newline": "off",
+    "no-underscore-dangle": "off",
+    "comma-dangle": "off",
+    "allowMultiplePropertiesPerLine": true
   }
 }
